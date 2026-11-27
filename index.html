@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="bn">
-<head
-  <meta name="google-site-verification" content="12LbCFnoUNTd3W8Wp7yNxunzptgU0fJAWBWjgmCDnfk" />
-  <meta name="google-site-verification" content="12LbCFnoUNTd3W8Wp7yNxunzptgU0fJAWBWjgmCDnfk" />
+<head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MOTEL CHISTY | Naogaon</title>
 <meta name="description" content="MOTEL CHISTY, Naogaon — comfortable stay and room booking.">
@@ -14,25 +12,44 @@ nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:cent
 .brand{font-size:22px;font-weight:800;color:var(--gold);letter-spacing:2px}.brand small{display:block;font-size:10px;color:#ddd;letter-spacing:3px}
 button,.btn{background:var(--gold);color:#17120a;border:0;border-radius:7px;padding:11px 17px;font-weight:700;cursor:pointer;text-decoration:none}
 select, input, textarea{width:100%;padding:12px;border-radius:7px;border:1px solid #5b503d;background:#111;color:white;font:inherit}
-.hero{min-height:420px;display:grid;place-items:center;text-align:center;padding:65px 20px;background:linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.5)),url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero{min-height:420px;display:grid;place-items:center;text-align:center;padding:65px 20px;background:linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.5)),url('images/motel-photo-10.jpeg') center/cover}
 .hero h1{font-size:clamp(34px,6vw,62px);color:var(--gold);margin:0}.hero p{font-size:18px;max-width:650px;margin:12px auto 24px}
 .wrap{max-width:1100px;margin:auto;padding:48px 20px}.section-title{text-align:center;color:var(--gold);font-size:30px;margin:0 0 8px}.sub{text-align:center;color:var(--muted);margin:0 0 28px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:var(--panel);border:1px solid #403722;border-radius:12px;overflow:hidden}.card img{width:100%;height:175px;object-fit:cover;display:block}.card div{padding:15px}.card h3{margin:0;color:var(--gold)}
-.booking{max-width:760px;margin:auto;background:var(--panel);padding:24px;border:1px solid #59492c;border-radius:14px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field label{display:block;margin:0 0 6px;color:#e6d3aa}.field.full{grid-column:1/-1}
+.photo-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.photo-gallery img{width:100%;height:230px;object-fit:cover;border-radius:12px;border:1px solid #493b22;display:block}.booking{max-width:760px;margin:auto;background:var(--panel);padding:24px;border:1px solid #59492c;border-radius:14px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field label{display:block;margin:0 0 6px;color:#e6d3aa}.field.full{grid-column:1/-1}
 footer{text-align:center;padding:30px 20px;background:#080808;color:#b9ad96;border-top:1px solid #493b22}
 @media(max-width:600px){.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{min-height:360px}nav{padding:10px 14px}}
 </style></head>
-  <meta name="google-site-verification" content="12LbCFnoUNTd3W8Wp7yNxunzptgU0fJAWBWjgmCDnfk" />
 <body>
 <header><nav><div class="brand">MOTEL CHISTY<small>COMFORT • CARE • HOSPITALITY</small></div><button onclick="toggleLang()" id="langBtn">English</button></nav></header>
 <section class="hero"><div><h1>MOTEL CHISTY</h1><p id="heroText">নওগাঁয় আপনার আরামদায়ক থাকার ঠিকানা। আপনার ভ্রমণকে আরামদায়ক করতে আমরা আছি পাশে।</p><a class="btn" href="#booking" id="bookBtn">রুম বুকিং করুন</a></div></section>
 <section class="wrap"><h2 class="section-title" id="roomsTitle">আমাদের রুমসমূহ</h2><p class="sub" id="roomsSub">আপনার প্রয়োজন অনুযায়ী রুম বেছে নিন</p>
 <div class="grid">
-<div class="card"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"><div><h3>Standard Room</h3><p id="standardDesc">আরামদায়ক থাকার ব্যবস্থা</p></div></div>
+<div class="card"><img src="images/motel-photo-01.jpeg"><div><h3>Standard Room</h3><p id="standardDesc">আরামদায়ক থাকার ব্যবস্থা</p></div></div>
 <div class="card"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"><div><h3>Deluxe Room</h3><p id="deluxeDesc">আরও বেশি স্বাচ্ছন্দ্য</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"><div><h3>Premium Suite</h3><p id="premiumDesc">প্রিমিয়াম অভিজ্ঞতা</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=900&q=80"><div><h3>Family Room</h3><p id="familyDesc">পরিবারের জন্য উপযোগী</p></div></div>
+<div class="card"><img src="images/motel-photo-11.jpeg"><div><h3>Premium Suite</h3><p id="premiumDesc">প্রিমিয়াম অভিজ্ঞতা</p></div></div>
+<div class="card"><img src="images/motel-photo-12.jpeg"><div><h3>Family Room</h3><p id="familyDesc">পরিবারের জন্য উপযোগী</p></div></div>
 </div><p class="sub" style="margin-top:18px" id="priceNote">রুমের ভাড়া জানতে সরাসরি যোগাযোগ করুন।</p></section>
+
+<section class="wrap" id="gallery">
+  <h2 class="section-title" id="galleryTitle">MOTEL CHISTY ফটো গ্যালারি</h2>
+  <p class="sub" id="gallerySub">আমাদের রুম, লবি ও অন্যান্য সুবিধার কিছু ছবি</p>
+  <div class="photo-gallery">
+    <img src="images/motel-photo-01.jpeg" alt="MOTEL CHISTY guest room" loading="lazy">
+    <img src="images/motel-photo-02.jpeg" alt="MOTEL CHISTY corridor" loading="lazy">
+    <img src="images/motel-photo-03.jpeg" alt="MOTEL CHISTY staircase" loading="lazy">
+    <img src="images/motel-photo-04.jpeg" alt="MOTEL CHISTY lounge" loading="lazy">
+    <img src="images/motel-photo-05.jpeg" alt="MOTEL CHISTY sitting area" loading="lazy">
+    <img src="images/motel-photo-06.jpeg" alt="MOTEL CHISTY lounge seating" loading="lazy">
+    <img src="images/motel-photo-07.jpeg" alt="MOTEL CHISTY reception" loading="lazy">
+    <img src="images/motel-photo-08.jpeg" alt="MOTEL CHISTY fish pond" loading="lazy">
+    <img src="images/motel-photo-09.jpeg" alt="MOTEL CHISTY entrance hall" loading="lazy">
+    <img src="images/motel-photo-10.jpeg" alt="MOTEL CHISTY guest room" loading="lazy">
+    <img src="images/motel-photo-11.jpeg" alt="MOTEL CHISTY guest room" loading="lazy">
+    <img src="images/motel-photo-12.jpeg" alt="MOTEL CHISTY guest room" loading="lazy">
+  </div>
+</section>
+
 <section class="wrap" id="booking"><h2 class="section-title" id="bookingTitle">অনলাইন বুকিং</h2><p class="sub" id="bookingSub">তথ্য পূরণ করে WhatsApp-এ বুকিং অনুরোধ পাঠান</p>
 <form class="booking" id="bookingForm"><div class="formgrid">
 <div class="field"><label id="nameLabel">আপনার নাম *</label><input id="name" required></div>
@@ -40,7 +57,7 @@ footer{text-align:center;padding:30px 20px;background:#080808;color:#b9ad96;bord
 <div class="field"><label id="inLabel">চেক-ইন তারিখ *</label><input id="checkin" required type="date"></div>
 <div class="field"><label id="outLabel">চেক-আউট তারিখ *</label><input id="checkout" required type="date"></div>
 <div class="field"><label id="roomLabel">রুমের ধরন</label><select id="room"><option>Standard Room</option><option selected>Deluxe Room</option><option>Premium Suite</option><option>Family Room</option></select></div>
-<div class="field"><label id="countLabel">রুম সংখ্যা</label><select id="count"><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+<div class="field"><label id="roomNoLabel">রুম নম্বর নির্বাচন করুন *</label><select id="roomNo" required><option value="">রুম নম্বর বাছাই করুন</option><option>201</option><option>202</option><option>203</option><option>204</option><option>205</option><option>206</option><option>207</option><option>301</option><option>302</option><option>303</option><option>304</option><option>305</option><option>306</option><option>307</option><option>308</option><option>309</option><option>310</option><option>311</option><option>312</option><option>313</option><option>314</option><option>315</option></select></div>\n<div class="field"><label id="countLabel">রুম সংখ্যা</label><select id="count"><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
 <div class="field"><label id="guestLabel">অতিথি সংখ্যা</label><select id="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></div>
 <div class="field"><label id="payLabel">পেমেন্ট পদ্ধতি</label><select id="payment"><option>Pay at motel</option><option>Advance payment</option><option>Contact me</option></select></div>
 <div class="field full"><label id="requestLabel">অতিরিক্ত অনুরোধ</label><textarea id="requests" rows="3"></textarea></div>
@@ -51,9 +68,9 @@ footer{text-align:center;padding:30px 20px;background:#080808;color:#b9ad96;bord
 <script>
 let english=false;
 function toggleLang(){english=!english;document.getElementById('langBtn').textContent=english?'বাংলা':'English';
-const t={heroText:['নওগাঁয় আপনার আরামদায়ক থাকার ঠিকানা। আপনার ভ্রমণকে আরামদায়ক করতে আমরা আছি পাশে।','Your comfortable stay in Naogaon. We are here to make your visit pleasant.'],bookBtn:['রুম বুকিং করুন','Book a Room'],roomsTitle:['আমাদের রুমসমূহ','Our Rooms'],roomsSub:['আপনার প্রয়োজন অনুযায়ী রুম বেছে নিন','Choose a room that suits your needs'],standardDesc:['আরামদায়ক থাকার ব্যবস্থা','A comfortable stay'],deluxeDesc:['আরও বেশি স্বাচ্ছন্দ্য','Extra comfort'],premiumDesc:['প্রিমিয়াম অভিজ্ঞতা','A premium experience'],familyDesc:['পরিবারের জন্য উপযোগী','Suitable for families'],priceNote:['রুমের ভাড়া জানতে সরাসরি যোগাযোগ করুন।','Please contact us for room rates.'],bookingTitle:['অনলাইন বুকিং','Online Booking'],bookingSub:['তথ্য পূরণ করে WhatsApp-এ বুকিং অনুরোধ পাঠান','Fill in the details and send your booking request via WhatsApp'],nameLabel:['আপনার নাম *','Your Name *'],phoneLabel:['মোবাইল নম্বর *','Mobile Number *'],inLabel:['চেক-ইন তারিখ *','Check-in Date *'],outLabel:['চেক-আউট তারিখ *','Check-out Date *'],roomLabel:['রুমের ধরন','Room Type'],countLabel:['রুম সংখ্যা','Number of Rooms'],guestLabel:['অতিথি সংখ্যা','Number of Guests'],payLabel:['পেমেন্ট পদ্ধতি','Payment Method'],requestLabel:['অতিরিক্ত অনুরোধ','Special Requests'],submitBtn:['WhatsApp-এ বুকিং পাঠান','Send Booking via WhatsApp'],contactTitle:['যোগাযোগ','Contact']};
+const t={galleryTitle:['MOTEL CHISTY ফটো গ্যালারি','MOTEL CHISTY Photo Gallery'],gallerySub:['আমাদের রুম, লবি ও অন্যান্য সুবিধার কিছু ছবি','Photos of our rooms, lobby and facilities'],roomNoLabel:['রুম নম্বর নির্বাচন করুন *','Select Room Number *'],heroText:['নওগাঁয় আপনার আরামদায়ক থাকার ঠিকানা। আপনার ভ্রমণকে আরামদায়ক করতে আমরা আছি পাশে।','Your comfortable stay in Naogaon. We are here to make your visit pleasant.'],bookBtn:['রুম বুকিং করুন','Book a Room'],roomsTitle:['আমাদের রুমসমূহ','Our Rooms'],roomsSub:['আপনার প্রয়োজন অনুযায়ী রুম বেছে নিন','Choose a room that suits your needs'],standardDesc:['আরামদায়ক থাকার ব্যবস্থা','A comfortable stay'],deluxeDesc:['আরও বেশি স্বাচ্ছন্দ্য','Extra comfort'],premiumDesc:['প্রিমিয়াম অভিজ্ঞতা','A premium experience'],familyDesc:['পরিবারের জন্য উপযোগী','Suitable for families'],priceNote:['রুমের ভাড়া জানতে সরাসরি যোগাযোগ করুন।','Please contact us for room rates.'],bookingTitle:['অনলাইন বুকিং','Online Booking'],bookingSub:['তথ্য পূরণ করে WhatsApp-এ বুকিং অনুরোধ পাঠান','Fill in the details and send your booking request via WhatsApp'],nameLabel:['আপনার নাম *','Your Name *'],phoneLabel:['মোবাইল নম্বর *','Mobile Number *'],inLabel:['চেক-ইন তারিখ *','Check-in Date *'],outLabel:['চেক-আউট তারিখ *','Check-out Date *'],roomLabel:['রুমের ধরন','Room Type'],countLabel:['রুম সংখ্যা','Number of Rooms'],guestLabel:['অতিথি সংখ্যা','Number of Guests'],payLabel:['পেমেন্ট পদ্ধতি','Payment Method'],requestLabel:['অতিরিক্ত অনুরোধ','Special Requests'],submitBtn:['WhatsApp-এ বুকিং পাঠান','Send Booking via WhatsApp'],contactTitle:['যোগাযোগ','Contact']};
 for(const [id,v] of Object.entries(t))document.getElementById(id).textContent=v[english?1:0];}
 document.getElementById('bookingForm').addEventListener('submit',function(e){e.preventDefault();const ci=document.getElementById('checkin').value,co=document.getElementById('checkout').value;if(co<=ci){alert('Check-out date must be after check-in date.');return;}
-const msg=`MOTEL CHISTY Booking Request%0AName: ${encodeURIComponent(name.value)}%0APhone: ${encodeURIComponent(phone.value)}%0ACheck-in: ${ci}%0ACheck-out: ${co}%0ARoom: ${encodeURIComponent(room.value)}%0ARooms: ${count.value}%0AGuests: ${guests.value}%0APayment: ${encodeURIComponent(payment.value)}%0ARequest: ${encodeURIComponent(requests.value)}`;
+const msg=`MOTEL CHISTY Booking Request%0AName: ${encodeURIComponent(document.getElementById('name').value)}%0APhone: ${encodeURIComponent(document.getElementById('phone').value)}%0ACheck-in: ${ci}%0ACheck-out: ${co}%0ARoom Type: ${encodeURIComponent(document.getElementById('room').value)}%0ARoom Number: ${encodeURIComponent(document.getElementById('roomNo').value)}%0ARooms: ${document.getElementById('count').value}%0AGuests: ${document.getElementById('guests').value}%0APayment: ${encodeURIComponent(document.getElementById('payment').value)}%0ARequest: ${encodeURIComponent(document.getElementById('requests').value)}`;
 window.open('https://wa.me/8801720544445?text='+msg,'_blank');});
 </script></body></html>
